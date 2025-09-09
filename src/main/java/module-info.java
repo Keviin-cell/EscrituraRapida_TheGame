@@ -5,4 +5,6 @@ module com.example.escriturarapida_thegame {
 
     opens com.example.escriturarapida_thegame to javafx.fxml;
     exports com.example.escriturarapida_thegame;
+    exports com.example.escriturarapida_thegame.controller;
+    opens com.example.escriturarapida_thegame.controller to javafx.fxml;
 }
